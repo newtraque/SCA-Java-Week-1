@@ -2,9 +2,14 @@ package com.example.numfactors;
 
 public class NumFactors {
     public static void main(String[] arg) {
-        int n = 50;
 
-        for (int i = 0; i <n; i++) {
+         FactorsOfNum();
+
+    }
+
+    public static void FactorsOfNum() {
+        for (int i = 1; i<50 ; i++) {
+
             if (i % 2 == 0) {
                 System.out.println("The number is even: " + i);
 
@@ -16,7 +21,6 @@ public class NumFactors {
                 System.out.println("None of the above: " + i);
             }
         }
-
     }
 
 }
